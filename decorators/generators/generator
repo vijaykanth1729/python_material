@@ -1,0 +1,19 @@
+Any function which contains one or more 'yield' statments is known as Generator.
+->when ever we call the generator function, it interanally the logic of generator function will be taken,
+implements a genrator protocol with that logic and returns iterable objects..
+
+-> we can call the generator function by using 'next' function on it, so that it will start execution.
+it executes upto one yield statment , pause the execution of the function and control comes out from the function .
+
+-> once again if we call 'next' function . previuos yield statment to next yield statment it will execute.
+
+** -> If no more yield statments in generator, then the function raises 'StopIterationException'
+
+-> purpose of yield is to able to give the output till that point of code..
+
+
+advantages:
+-------------
+Easy to implement..
+Memory efficient
+It can also represents infinite stream..

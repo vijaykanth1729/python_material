@@ -1,0 +1,132 @@
+variable declartions:
+-----------------------------
+
+int x = 100  # not required
+
+x = 100     #works fine
+
+you should not use keywords as variable names, in python we have some keywords that you should not use as variable name
+
+you should not start with alphabets
+eg: 0name = "vijay"
+
+if variable name is long you can use underscores..
+
+import keyword
+keyword.kwlist
+
+['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+
+data types or collections in python:
+------------------------------------------------
+Mainly python has some builtin classes, they are
+
+1) int   
+2) float
+3)str
+4)tuple
+5)list
+6)set
+7)dict    (means dictionary)
+
+
+x = 29   #integer
+y = 45.89  #float
+z = "vijay"   #string
+c = 3 + 4j
+>>> print(type(c))    ->complex
+
+c.imag
+4.0
+c.real
+3.0
+ c = 5+22j
+ c.imag
+22.0
+c.real
+5.0
+
+remember:
+----------------
+for every python data type there will be some default methods available , we can find those methods of a python data type using      dir()  function
+
+eg:
+-----
+print(dir(int))  # displays all the methods avaliable for int class
+
+to know the type of data we can use builtin function called as     type()
+
+x = 20
+print(type(x))     -> int
+
+to know the functionality of a method we will use buitin function called as    help()
+
+x = 4
+ in number system to find bit length we will use binary notation      ( 256,128,64,32,16,8,4,2,1)      --->       100   (3 digits bit length = 3)
+
+x = 8   , x = 20    (bit length= ?)  10100     (bit length=5)
+
+tell me bit length  --> 1000   (bit length=4)
+
+
+
+strings:
+----------------
+x = "vijay"
+print(type(x))
+print(dir(x))
+
+x
+'vijay'
+>>> x.isupper()
+False
+>>> x.islower()
+True
+>>> x
+'vijay'
+>>> x.capitalize()
+'Vijay'
+>>> x
+'vijay'
+>>> x = x.capitalize()
+>>> x
+'Vijay'
+>>> x = "vijay"
+>>> x.capitalize()
+'Vijay'
+>>> x
+'vijay'
+>>> x = "iam vijay"
+>>> x.title()
+'Iam Vijay'
+
+x.title()
+'Iam Vijay'
+>>> x
+'iam vijay'
+>>> x.isdigit()
+False
+>>> x = "VIJAY"
+>>> x.lower()
+'vijay'
+>>> x= x.lower()
+>>> x
+'vijay'
+>>> x.upper()
+'VIJAY'
+
+x = "vijAy Iam"
+>>> x.swapcase()
+'VIJaY iAM'
+>>> x = vijay     # dont declare
+Traceback (most recent call last):
+  File "<pyshell#66>", line 1, in <module>
+    x = vijay
+NameError: name 'vijay' is not defined
+
+
+
+
+
+

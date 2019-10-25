@@ -1,0 +1,51 @@
+Generally we have two types of error's in programming languages..
+1) syntax error
+2) Run time error
+
+Syntax error:
+-------------
+occurs because of invalid syntax in the code..
+eg:
+----
+for i in "vijay"
+print(i)   # missing the indentation , colun at for loop...
+
+def = "vijay"   # syntax error, because its a keyword in python
+
+Run time Errors:
+------------------
+the errors which occurs after starting the execution of a program ....
+
+There are so many reasons to occur run time errors..
+
+with respect to every run time error corresponding run time representation class is available..
+
+Run time errors technically we call as a exceptions..
+
+To over come (handle exceptions)  this in python we have 3 blocks:
+---------------------------------------------------
+
+1) Try
+2) Except
+3) Finally
+
+Try:
+----
+always store the code which are causing a error ,
+
+Except:
+-----------
+
+Always gives or handles the exception and it will give the proper user understandable message as output..
+
+Finally:
+-----------
+
+this block is used automatically every time... even we get an exception or even if we dont get an exception..
+eg: file closing statements..
+data base connection closing statements..
+
+
+
+
+

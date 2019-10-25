@@ -1,0 +1,28 @@
+File is a named location on the disk, which can able to store the data perminently..
+Python program can open the file, read or write the data and close the file..
+we can open the file by using one predefined function called as open()
+At the time of opening the file by calling open(), we can specify the mode of the file..
+
+Mode of the file indicates what type of the  operations are going to be performed on that file..
+
+MODE                       Description
+---------                 -------------
+'r'                        open the file for reading (default, even if we dont specify it automatically takes)
+
+'w'                        open the file for writing , and it creates a file if doesn't exist or truncate the file data if exists...
+
+'a'                        open the file for appending , and it creates a new file if doesn't exist and it appends the data..
+
+'t'                         open in the text mode
+
+'b'                         open the file which is binary format (like images, jpg, png etc)
+
+'+'                         open a file for updating (reading & writing)
+
+"x"                         - Create - Creates the specified file, returns an error if the file exists
+
+open() , function opens the file with specified mode and creates a file object..
+
+-->file object provides various methods and by using those methods we can read or write the data and we can close the file, and tell and seek ..
+
+

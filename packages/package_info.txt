@@ -1,0 +1,19 @@
+Package is a folder or directory which represents collection of python modules..
+A package can also contain subpackages
+we can import the modules of a package by using following syntax.
+
+import packagename.modulename
+
+import packagename.subpackagename.modulename
+
+
+
+
+###################################################
+
+Background execution of Python:
+------------------------------------
+
+it will generate .pyc files called as compiled python files...
+
+# Byte code ---> low level language  --> processor ---> executed...

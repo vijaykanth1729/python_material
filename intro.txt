@@ -1,0 +1,103 @@
+###############Python##########################
+----------------------------------------------------------------------------------------------------:
+Python:
+-------------
+excute a program:
+-------------------------
+python app.py
+
+c, c++, java, python .net
+------------------------------------
+1)procedural programming  (c language)
+
+2)object oriented   (classes, functions, java , python, ruby)
+3)functional    ( c follows it..)
+4) modular   (python  each and every program follows some modularity)
+
+Interpreted programming language..  (No compilation step is required)
+General purpose language--->Python can be used with all kinds of software application development
+scalable--->you can use with any software
+portable--->it runs on any platform (linux, windows, mac)
+highly effiecient---> readbility is simple,  same like english langugae, no kind of braces   ({, })
+
+
+Python:                                                                                                                                            Java;
+-------------------------------------------------------------------------------------------------------------------
+
+Its dynamically typed ( a = 20, name="vijay")                                        static typed  ( int a =23,   string name="vijay")
+used in scientific apps                                                                                              No support Scientific apps
+
+machine learning                                                                                                        No support Scientific apps
+artificial intelligence                                                                                                   No support Scientific apps
+data science
+data analysis
+Graphical user interface
+socket programming
+web application development
+
+print("hello world")                                                                                public static voide(main string, args){
+
+							system,.out.println("hello world")
+							
+						}
+
+
+
+Installation:
+----------------------
+https://www.python.org/    --->downloads  ->windows,     3.7.4----install webbased x-64 86 python .exe file
+
+*** Add to path  (in the first screen)
+
+
+IDLE --> is a toolkit which is built in with python installation   (used for running simple scripts for testing)
+
+
+python app.py:
+--------------------
+print("hello world")    
+
+
+add to path:
+-----------------
+
+copy the location of python installation folder  c:python36\bin\
+
+open cmd--> control system--->advanced systme settings-->environment variables---> add to  the path of system variables--new-->add it
+
+
+
+
+Operators in python:
+------------------------------
+There are different types of operators are there in python:
+----------------------------------------------------------------------------
+Arithematic operators:    +, - , *, /, // , **, %    (two types of division-->/, //   (/ always gives value including float decimal format,   // truncate the floor divison, %  (modulous)gives remainder,   ** exponent used for power calculation)   10 ) 125 ( 10
+			       100
+                                                                ---------
+			           5
+
+
+Relational operators:      (it always gives the output value as Boolean (True, False), (<, > , <=,  >= , ==(comparsion opeator , it will compare the values wither side) , !=)
+
+logical operators:
+
+assignment operators:
+
+membership operators:
+
+identity operators:
+
+
+
+
+
+
+
+
+
+
+
+
+
+

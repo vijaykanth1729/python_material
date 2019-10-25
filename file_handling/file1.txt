@@ -1,0 +1,6 @@
+Vijay
+database
+sql
+python
+django
+db

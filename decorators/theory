@@ -1,0 +1,18 @@
+Any variable which is preceeded by '@' character is know as a decorator.
+
+-> every decorator should represents a function and we call that function as a decorator function.
+
+->any function which is preceeded by decorator is known as a decorator function.
+
+-> decorator takes in a function, adds some functionality & returns it, when ever we call
+the decorated function that function internally passed as a parameter to the decorator function,
+executes the decorator function and the return object of the decorator function is automatically called.
+
+
+Decorator :
+-------------
+
+Decorator is a concept in python which adds additional functionality to the existing function,
+without touching or modifying the existing code...
+
+Always decorator is created by using '@' symbol..

@@ -1,0 +1,25 @@
+Thread is a functionality or logic , which executes simultaneously along with other part of program.
+
+(OR)
+
+Thread is a light weight process.
+
+To use threading concept in python we use builtin threading module..
+that threading module contains a class called Thread.
+
+we can run a thread by overriding (run) method of a thread class..
+
+we can execute the functionality of a thread by calling (start)  method of thread class.
+
+Scheduling:
+-----------
+Among multiple threads which thread has to start the execution first, how much time that thread has to execute
+after allocated time is over which thread has to continue the excution next, is comes under scheduling..
+Scheduling is highly dynamic..
+** we can not predict the order of scheduling..
+
+Suspending the thread is possible temporarily by calling the sleep() or join() method
+
+sleep is a predefined function, which is defined in   time module..
+
+sleep() stop the execution of current thread untill specified time is over..

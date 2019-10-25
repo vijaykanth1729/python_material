@@ -1,0 +1,16 @@
+GUI--->Desktop (GrpahicL uSER iNTERFACE ) Application Development:
+----------------------------------
+By using python we can implement standalone GUI applications for desktop...
+-> There is a module which is prepackaged and installed automatically while installing python
+--> module name  'tkinter' helps for creating graphical user interfaces...
+-> this module has 'ton's of built in functions which can be used for creating
+complicated desktop applications..
+
+--> TO INSTALL any external modules in python 'we use a command line utlity called as PIP'
+--> pip is used same as 'yum in centos or apt-get in ubuntu'
+to install any module we use pip.
+---------------------------------
+eg:1) pip install pandas
+2) pip install django   (django framework)
+
+

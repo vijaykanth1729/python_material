@@ -1,0 +1,91 @@
+There are different types of operators are there in python:
+------------------------------------------------------------
+
+Logical operators:
+--------------------------- 3 types are there,    logical operators are used to perform mathematical logical operations
+
+1) and
+2) or 
+3) not
+
+and ( True--True--->True)  (eg: username and password)
+or   (False--False--->False)
+
+not (opposite of present value)
+
+x  = True
+y = False
+
+ print(x and y) --->False
+print( x or y)  --> True
+not x---> False
+not y -->True
+
+
+Assignment operators:
+---------------------------------
+there are different types of assignment operators
+
++=,   -=,    *=,     /=,      %=
+
+
+
+
+
+eg: x = 5
+x = x+5    (short cut way is using assignment operators)
+
+x+=5   (same as x=x+5)
+
+examples:
+--------------
+x = 10
+>>> x+=10    #   x = x+10
+>>> x
+20
+>>> x = 10
+>>> x -= 5    # x = x-5
+>>> x
+5
+>>> x =10
+>>> x*=10    # x = x*10
+>>> x
+100
+>>> x = 100
+>>> x/=5    # x = x/5    5)100(20.0
+>>> x
+20.0
+>>> x=100
+>>> x//=5
+>>> x
+20
+>>>
+
+
+special operators:
+-----------------------------
+there are two types:
+----------------------------
+1) membership operators:    used to search for the required element in given iterable objects.  (eg: list, string, set, dict, tuple) {{ two keywords are there, (in)  and (not in)
+
+eg:
+x = "vijay"
+'t' in x-->False
+'v' in x-->True
+
+2) identity operators:
+----------------------------------
+used to compare the address of the objects   (denoted with, (is) and (is not) )
+
+x = 10
+print(id(x))===>id will gives the address of an object in the system memory
+a = 1000
+b = 1000
+ a is b   -->False       # id will always useful for finding the system memory location address....
+
+
+
+
+
+
+ 

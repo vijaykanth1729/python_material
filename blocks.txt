@@ -1,0 +1,63 @@
+Blocks:
+-------------
+
+the set of statements which are following the same space indentation is called as a block   (by default python follow tab space or 4 spaces)
+Block begins with indentation increases,  Block can contain another block and block ends with indentation decreases..
+
+eg:
+----
+
+start1
+start2
+	start3
+	start4
+		start5
+		start6
+	start7
+	start8
+start9
+start10
+
+
+control statements:
+------------------------------
+control statements are used to distrub the normal flow of excution of a program
+python supports two types of control statements    
+1) conditional statements----->(if block,  elif block, else block)
+2) Looping statements---->( while loop and for loop)
+
+syntax of if block:
+-------------------------
+if condition:
+	# below statements are executed only when condtion is True
+	statement 1
+	statement2
+	statement3
+
+x = 10
+if x==10:
+	print("yes x is 10")
+
+syntax of else block:
+------------------------------
+if condition:
+	statement1
+	statement2
+else:
+	statement3
+	statement4
+
+syntax of elif block:
+----------------------------
+
+if condition:
+	statement1
+	statement2
+elif condition:
+	statement3
+	statement4
+else:
+	statement5
+	statement6
+
+
